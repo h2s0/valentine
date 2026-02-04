@@ -31,26 +31,8 @@ function hideNoMojis() {
   });
 }
 
-const modalOverlay = document.getElementById('modalOverlay');
-const modalText = document.getElementById('modalText');
-const modalClose = document.getElementById('modalClose');
-
-function showModal(message) {
-  modalText.textContent = message;
-  modalOverlay.classList.add('show');
-}
-
-function hideModal() {
-  modalOverlay.classList.remove('show');
-}
-
-modalClose.addEventListener('click', hideModal);
-modalOverlay.addEventListener('click', (e) => {
-  if (e.target === modalOverlay) hideModal();
-});
-
 function handleYesClick() {
-  showModal('사랑해요! 💕');
+  alert('사랑해요! 💕');
 }
 
 const noButtonAlertList = ["Are you sure?", "그짓말", "으심대ㅡㅡ+", "try again!"]
