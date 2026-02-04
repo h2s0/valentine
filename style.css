@@ -54,15 +54,11 @@ body {
   border: 3px solid rgb(173, 82, 7);
 }
 
-.yeahMoji .noMoji {
+.yeahMoji,
+.noMoji {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
-}
-
-.yeahMoji.show .noMoji.show {
-  opacity: 1;
-  visibility: visible;
 }
 
 .heart {
