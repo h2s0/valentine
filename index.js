@@ -32,7 +32,7 @@ function hideNoMojis() {
 }
 
 function handleYesClick() {
-  alert('사랑해! 💕');
+  alert('오빠찌 사랑해 알럽뿡짝슨 💕💕💕');
 }
 
 const noButtonAlertList = ["진짜?", "그짓말", "으심대ㅡㅡ+", "구라즐"]
