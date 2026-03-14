@@ -32,10 +32,10 @@ function hideNoMojis() {
 }
 
 function handleYesClick() {
-  alert('사랑해요! 💕');
+  alert('사랑해! 💕');
 }
 
-const noButtonAlertList = ["Are you sure?", "그짓말", "으심대ㅡㅡ+", "try again!"]
+const noButtonAlertList = ["진짜?", "그짓말", "으심대ㅡㅡ+", "구라즐"]
 
 let index = 0;
 
